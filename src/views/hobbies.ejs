@@ -1,0 +1,13 @@
+<%- include('_header.ejs', { title: 'Hobbies' }) %>
+
+  <h1>Hobbies</h1>
+
+  <ul>
+    <% for(let h of hobbies) { %>
+      <li>
+        <%= h %>
+      </li>
+      <% } %>
+  </ul>
+
+  <%- include('_footer.ejs') %>
